@@ -21,11 +21,13 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
     font-weight: 400;
     font-size: 1.5em;
+    text-align: left;
 }
 
 a {
@@ -80,4 +82,56 @@ nav a {
 
 .button-container a:hover {
     background-color: #FFF8DC;
+}
+
+.portrait-container {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.image-item-left, .image-item-right {
+    width: 30%;
+}
+
+.image-item-left img, .image-item-right img {
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+figcaption.center {
+    text-align: center;
+}
+
+.hobby-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin-right: 10px;
+}
+
+.hobby-item img {
+    display: block;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
 }
